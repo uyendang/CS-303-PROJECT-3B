@@ -20,15 +20,15 @@ int main() {
 	{
 		fin >> tempLine;
 
-		for(int 1 = 0; i <= tempLine.size(); i++)
+		for(int i = 0; i <= tempLine.size(); i++)
 		{
-			if (isalnum(line[i]))
+			if (isalnum(tempLine[i]))
 			{
-				letter = line[i];
+				letter = tempLine[i];
 			}
 			else
 			{
-				code += line[i];
+				code += tempLine[i];
 			}
 			morseTree.BuildTree(letter, code);
 			code = ""; //clear the code
