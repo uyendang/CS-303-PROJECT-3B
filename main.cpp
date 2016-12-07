@@ -20,7 +20,7 @@ int main() {
 	{
 		fin >> tempLine;
 
-		for(int i = 0; i <= tempLine.size(); i++)
+		for(int i = 0; i < tempLine.size(); i++)
 		{
 			if (isalnum(tempLine[i]))
 			{
